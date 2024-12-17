@@ -1,0 +1,15 @@
+
+mkdir ~/.venv
+
+python3 -m venv ~/.venv
+
+# to activate the venv
+source ~/.venv/bin/activate
+
+# now install required packages
+python3 -m pip install <module name>
+
+# and it will install the module in the virtual env
+
+# to deactivate the venv or exit the shell
+deactivate 

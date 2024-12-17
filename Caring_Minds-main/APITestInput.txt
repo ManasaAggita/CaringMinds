@@ -1,0 +1,15 @@
+curl --location 'http://127.0.0.1:5000/match_caregivers' \
+--header 'Content-Type: application/json' \
+--data '{
+    "gender": "Female",
+    "language": ["English", "Spanish"],
+    "preferred_gender": "Male",
+    "dementia_type": ["Alzheimer'\''s Disease", "Vascular Dementia"],
+    "symptoms": ["Mental decline", "Agitation", "Muscle stiffness or rigidity"],
+    "dementia_stage": "Moderate",
+    "care_type": ["Medication Management", "Daily Living Support"],
+    "availability": "Full Time"
+}
+'
+
+

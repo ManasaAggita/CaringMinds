@@ -1,0 +1,11 @@
+Add the original remote repository:
+git remote add upstream https://git.txstate.edu/kgv34/Caring_Minds
+
+Fetch changes from the original repository:
+git fetch upstream
+
+Merge the changes from the upstream remote:
+git merge upstream/main
+
+Commit and push the changes:
+git push
